@@ -73,3 +73,7 @@ public:
     }
 };
 
+double kelilingLayang(LayangLayang L) {
+    return 2 * (L.s1 + L.s2); 
+}
+
