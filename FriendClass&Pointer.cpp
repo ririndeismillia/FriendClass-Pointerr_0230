@@ -42,4 +42,15 @@ private:
     double d1, d2; 
     double s;      
 
+public:
+    void input() {
+        cout << "\n=== Belah Ketupat ===" << endl;
+        cout << "Masukkan diagonal 1: ";
+        cin >> d1;
+        cout << "Masukkan diagonal 2: ";
+        cin >> d2;
+        cout << "Masukkan sisi: ";
+        cin >> s;
+    }
+
 };
