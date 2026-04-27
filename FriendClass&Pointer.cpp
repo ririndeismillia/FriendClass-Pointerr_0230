@@ -34,4 +34,6 @@ public:
         cout << "Keliling Layang-Layang: " << keliling() << endl;
     }
 
+    friend double kelilingLayang(LayangLayang);
 };
+
