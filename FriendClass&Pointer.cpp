@@ -53,4 +53,8 @@ public:
         cin >> s;
     }
 
+    double luas() {
+        return 0.5 * d1 * d2;
+    }
+
 };
