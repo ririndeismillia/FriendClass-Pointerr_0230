@@ -25,4 +25,8 @@ public:
         return 0.5 * d1 * d2;
     }
 
+    double keliling() {
+        return 2 * (s1 + s2);
+    }
+
 };
