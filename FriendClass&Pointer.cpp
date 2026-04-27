@@ -81,4 +81,11 @@ int main() {
     LayangLayang L;
     BelahKetupat B;
 
+    L.input();
+    B.input();
+
+    cout << "\n=== Output ===" << endl;
+    L.output();
+    B.output();
+
 };
