@@ -88,4 +88,7 @@ int main() {
     L.output();
     B.output();
 
-};
+    B.tampilKelilingLayang(L);
+
+    return 0;
+}
