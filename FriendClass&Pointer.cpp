@@ -66,4 +66,10 @@ public:
         cout << "Keliling Belah Ketupat: " << keliling() << endl;
     }
 
+    void tampilKelilingLayang(LayangLayang L) {
+        cout << "\n(Akses Friend Function)" << endl;
+        cout << "Keliling Layang-Layang (dari Belah Ketupat): "
+             << kelilingLayang(L) << endl;
+    }
 };
+
